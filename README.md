@@ -1,6 +1,7 @@
 # BlueDeck
 
-[![Build APK](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/build.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/build.yml)
+[![Build APK](https://github.com/KinglessCrown/BlueDeck-Custom-Bluetooth-Remote/actions/workflows/build.yml/badge.svg)](https://github.com/KinglessCrown/BlueDeck-Custom-Bluetooth-Remote/actions/workflows/build.yml)
+[![Download](https://img.shields.io/github/v/release/KinglessCrown/BlueDeck-Custom-Bluetooth-Remote?label=download&color=blue)](https://github.com/KinglessCrown/BlueDeck-Custom-Bluetooth-Remote/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-Android%207.0%2B-3DDC84)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
