@@ -1,0 +1,21 @@
+name: Unpack
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack zip into repo
+        run: |
+          mkdir /tmp/x
+          unzip -q BtRemote.zip -d /tmp/x
+          rm -rf /tmp/x/.github
+          cp -a /tmp/x/. .
+          git rm -q BtRemote.zip
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Add BlueDeck project files"
+          git push
